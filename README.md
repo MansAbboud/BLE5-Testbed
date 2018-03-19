@@ -23,7 +23,7 @@ BLE5-Testbed/code/nRF52840_Broadcaster_main.c | dedicated for the Broadcaster
 BLE5-Testbed/code/nRF52840_Sniffer_main.c | dedicated for the Sniffer
 
 
-Please use Issues to report problems for the BLE5-Testbed implementation.
+Please use Issues to report problems of this implementation.
 
 # License
 GNU General Public License v3.0
