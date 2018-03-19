@@ -3,7 +3,10 @@
 This repository contains the source files of the testbed which has been developed for Bluetooth 5.0 Physical Layer Evaluation.
 The testbed is composed of three BLE units: Broadcaster which transmit packet, Observer which receives packets, and a Sniffer for measuring the background noise of the test environment (Noise Floor). The units are based on the Nordic nRF52840 development kit https://www.nordicsemi.com/eng/Products/nRF52840 which supports multiple radio standards such as BLE, IEEE 802.15.4, ANT and Nordic 2.4GHz proprietary protocols. 
 
-(/nrf52840.jpg)
+(/nrf52840.JPG)
+
+![GitHub Logo](/nrf52840.JPG)
+Format: ![Alt Text](url)
 
 Additionally,  
 
