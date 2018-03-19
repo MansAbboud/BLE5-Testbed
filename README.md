@@ -1,5 +1,4 @@
 # BLE5-Testbed
-A testbed for Bluetooth 5.0 Physical Layer Evaluation.
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
+
+This repository contains the source files of the testbed which has been developed for Bluetooth 5.0 Physical Layer Evaluation.
+
