@@ -1,6 +1,6 @@
 # BLE5-Testbed
 
-This repository contains the source files of the BLE testbed which has been developed for the evaluation of Bluetooth 5.0 Physical Layers (BLE PHYs).
+This repository contains the source code files of the BLE testbed which has been developed for the evaluation of Bluetooth 5.0 Physical Layers (BLE PHYs).
 The implementation has been carried out during a research project at Communication and Networked Systems (ComSys) department at Otto von Guericke University Magdeburg  http://www.comsys.ovgu.de/.
 
 # Objectives
