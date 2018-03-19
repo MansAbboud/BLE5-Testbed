@@ -8,5 +8,10 @@ The implementation has been carried out during a research project at the Communi
 
 Please use Issues to report problems for the BLE5-Testbed implementation.
 
+First Header | Second Header
+------------ | -------------
+Content cell 1 | Content cell 2
+Content column 1 | Content column 2
+
 # License
 BLE5-Testbed is open source and can be freely used by anyone.
