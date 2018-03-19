@@ -26,4 +26,4 @@ BLE5-Testbed/code/nRF52840_Sniffer_main.c | dedicated for the Sniffer
 Please use Issues to report problems for the BLE5-Testbed implementation.
 
 # License
-BLE5-Testbed is open source and can be freely used by anyone.
+GNU General Public License v3.0
