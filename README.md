@@ -4,8 +4,8 @@ This repository contains the source code files of the BLE testbed which has been
 The implementation has been carried out during a research project at Communication and Networked Systems (ComSys) department at Otto von Guericke University Magdeburg  http://www.comsys.ovgu.de/.
 
 # Objectives
-The main Objective is to provide researchers a free access to the BLE radio chip in the 2.4GHz frequency band which is usually not possible when the softwarestack is in use. This enables testing/evaluating the new PHYs of BLE 5 standard such as LE 2M and LE Coded without the need for establishing a connection. For example, LE Coded PHY which uses Forward Error Correction (FEC) can only be tested during a connection which starts first with connection establishment on LE 1M then switcheing to LE Coded.
-Furthermore, the packet structure of all defined PHYs has been defined with a variable payload size up to 255 Bytes. All BLE channels (advertismnet and data) can be accessed and tested with different: packet sizes, transmit power settings and radio modes. Additionally, Frequency Hopping algorithms can be implemented by developers, scanning on a specific advertisment channel is possible, synchronization of nodes can be more accurate after disabling the softwarestack.   
+The main objective is to provide researchers a free access to the BLE radio chip in the 2.4GHz frequency band which is usually not possible when the BLE stack is in use. This enables testing/evaluating the new PHYs of BLE 5 standard such as LE 2M and LE Coded without the need for establishing a connection. For example, LE Coded PHY which uses Forward Error Correction (FEC) can only be tested during a connection which starts first with connection establishment on LE 1M then switching to LE Coded.
+Furthermore, the packet structure of all PHYs has been defined with a variable payload size up to 255 Bytes. All BLE channels (advertismnet and data) can be accessed and tested with different: packet sizes, transmit power settings and radio modes. Additionally, Frequency Hopping algorithms can be implemented by developers, scanning on a specific advertisment channel is possible, synchronization of nodes can be more accurate after disabling the stack.   
 
 
 # Structure
@@ -13,7 +13,7 @@ The testbed is composed of three BLE units: Broadcaster which transmit packet, O
 
 ![GitHub Logo](/nrf52840.jpg)
 
-The functiionality of the testbed is based on a connectionless one way transmission of a certain number of packets from the broadcaster to the observer without replying any ACK. On the observer side, received packets including their Received Signal Strength (RSS) in addition to the Packet Error Rate (PER) of each transmission are recorded. 
+The testbed is based on a connectionless one way transmission of a certain number of packets from the broadcaster to the observer without replying any ACK. On the observer side, received packets including their Received Signal Strength (RSS) in addition to the Packet Error Rate (PER) of each transmission are recorded. 
 
 Directory | Content
 ------------ | -------------
