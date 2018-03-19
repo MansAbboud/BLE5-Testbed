@@ -11,7 +11,7 @@ Furthermore, the packet structure of all defined PHYs has been defined with a va
 # Structure
 The testbed is composed of three BLE units: Broadcaster which transmit packet, Observer which receives packets, and a Sniffer for measuring the background noise of the test environment (Noise Floor). The units are based on the Nordic nRF52840 development kit https://www.nordicsemi.com/eng/Products/nRF52840 which supports multiple radio standards such as BLE, IEEE 802.15.4, ANT and Nordic 2.4GHz proprietary protocols (See picture below).
 
-![GitHub Logo](/nrf52840.JPG)
+![GitHub Logo](/nrf52840.jpg)
 
 The functiionality of the testbed is based on a connectionless one way transmission of a certain number of packets from the broadcaster to the observer without replying any ACK. On the observer side, received packets including their Received Signal Strength (RSS) in addition to the Packet Error Rate (PER) of each transmission are recorded. 
 
