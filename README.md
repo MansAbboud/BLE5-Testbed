@@ -7,7 +7,7 @@ The testbed is composed of three BLE units: Broadcaster which transmit packet, O
 
 Additionally,
 
-![GitHub Logo](/structure.PNG)
+![GitHub Logo](/structure.png)
 
 The implementation has been carried out during a research project at the Communication and Networked System (ComSys) department at Otto von Guericke University Magdeburg  http://www.comsys.ovgu.de/.
 
