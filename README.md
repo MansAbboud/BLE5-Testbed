@@ -1,7 +1,7 @@
 # BLE5-Testbed
 
 This repository contains the source code files of the BLE testbed which has been developed for the evaluation of Bluetooth 5.0 Physical Layers (BLE PHYs).
-The implementation has been carried out during a research project at Communication and Networked Systems (ComSys) department at Otto von Guericke University Magdeburg  http://www.comsys.ovgu.de/.
+The implementation has been carried out during a research project at the Communication and Networked Systems (ComSys) department at Otto von Guericke University Magdeburg  http://www.comsys.ovgu.de/.
 
 # Objectives
 The main objective is to provide researchers a free access to the BLE radio chip in the 2.4GHz frequency band which is usually not possible when the BLE stack is in use. This enables testing/evaluating the new PHYs of BLE 5 standard such as LE 2M and LE Coded without the need for establishing a connection. For example, LE Coded PHY which uses Forward Error Correction (FEC) can only be tested during a connection which starts first with connection establishment on LE 1M then switching to LE Coded.
